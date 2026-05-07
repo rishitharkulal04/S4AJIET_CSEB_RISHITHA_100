@@ -1,0 +1,14 @@
+
+class Main {
+    public static void main(String[] args) {
+        int power=30;
+        int ninja=20;
+        
+        power+=ninja;
+        ninja=power-ninja;
+        power-=ninja;
+        System.out.println("power:"+power);
+        System.out.println("ninja:"+ninja);
+    }
+}
+      
