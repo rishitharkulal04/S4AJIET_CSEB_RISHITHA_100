@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = 10; 
+        int K = 5;  
+        int candies = 10;
+        System.out.print("Enter candies to buy: ");
+        int buy = sc.nextInt();
+        if(buy > candies || candies - buy < K) {
+            System.out.println("INVALID INPUT");
+        }
+       else {
+           candies = candies - buy;
+            System.out.println("Number of Candies Sold: " + buy);
+            System.out.println("Number of Candies available: " + candies);
+        }
+    }
+}
