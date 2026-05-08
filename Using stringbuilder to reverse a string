@@ -5,7 +5,7 @@ class Main {
            q.append("Hello");
            q.reverse();
            String f=q.toString();
-           
+           int i=q.length();
            System.out.println(f);
            
       
